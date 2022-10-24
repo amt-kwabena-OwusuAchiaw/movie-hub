@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movie-hub/static/css/main.8a42f3fd.css",
+    "main.js": "/movie-hub/static/js/main.06b127fb.js",
+    "static/media/6366.jpg": "/movie-hub/static/media/6366.f00593802a7bcc996685.jpg",
+    "static/media/4.jpg": "/movie-hub/static/media/4.aa4b4cdc245343892d37.jpg",
+    "static/media/5.jpg": "/movie-hub/static/media/5.7290d945b1badf51786a.jpg",
+    "static/media/6.jpg": "/movie-hub/static/media/6.88acad16b06281119f4b.jpg",
+    "static/media/1.jpg": "/movie-hub/static/media/1.a2a2a0b42910819253de.jpg",
+    "static/media/3.jpg": "/movie-hub/static/media/3.b2ca87944da0b454d0ac.jpg",
+    "static/media/2.jpg": "/movie-hub/static/media/2.5c57ec76e8bc6bb747c4.jpg",
+    "static/media/instagram.svg": "/movie-hub/static/media/instagram.df5873287e1c06a0fe74440f6ccd8394.svg",
+    "static/media/pinterest.svg": "/movie-hub/static/media/pinterest.a2d25ab4c70b78c4028f25323009cc58.svg",
+    "index.html": "/movie-hub/index.html",
+    "static/media/twitter.svg": "/movie-hub/static/media/twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
+    "static/media/facebook.svg": "/movie-hub/static/media/facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "static/media/icon-hamburger.svg": "/movie-hub/static/media/icon-hamburger.28bc2caa663abd7fa43a9821b18838b2.svg",
+    "main.8a42f3fd.css.map": "/movie-hub/static/css/main.8a42f3fd.css.map",
+    "main.06b127fb.js.map": "/movie-hub/static/js/main.06b127fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a42f3fd.css",
+    "static/js/main.06b127fb.js"
+  ]
+}

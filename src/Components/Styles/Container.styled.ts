@@ -1075,7 +1075,7 @@ padding-top:7px;
  max-width:1500px;
  
  .about{
-  font-size:18px;
+  font-size:22px;
    border:2px solid black;
     width:65vw;
   margin-Top:50px;
@@ -1084,7 +1084,7 @@ padding-top:7px;
 
   .top{
 
-   font-size:3.5vw;
+   font-size:33px;
    max-width:1500px;
   }
   .cast {
@@ -1130,10 +1130,10 @@ font-size: 24px;
 
  export const ForEveryone= styled.div`
  .name{
-  font-size:25px;
+  font-size:28px;
  }
  .bio{
- font-size:13px;
+ font-size:22px;
   border:2px solid black;
   
   margin-top:50px;
@@ -1143,7 +1143,7 @@ font-size: 24px;
 
  .born{
 
-  font-size:10px;
+  font-size:15px;
  }
  
  `

@@ -830,16 +830,23 @@ display:grid;
 export const Color =  styled.div`
 display:flex;
 justify-content:center;
+flex-wrap:wrap;
 
 button{  
 background-color: #2BD0D0;
 }
 
 `
-
-
+export const GenreForSelected= styled.div`
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ color:red;
+`
 
 export const GenreFlex =styled.div`
+
+
 display:flex;
 justify-content:center;
 padding-right: 10px;

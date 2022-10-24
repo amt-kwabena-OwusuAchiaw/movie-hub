@@ -19,11 +19,12 @@ import { SeriesTopRated } from './Pages/SeriesTopRated';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter  basename='/'>
+      <BrowserRouter  basename='/movie-hub/'>
        <div> 
          <Routes>
-            {/* <Route path="/" element={<Header/>}/> */}
-            <Route path="/" element={<HomePage/>}/>
+          
+         
+            <Route  path="/" element={<HomePage/>}/>
              <Route path='popular'  element={<MoviePagePopular/>}/>
             <Route path='seriesPopular'  element={<SeriesPagePopular/>}/>
             <Route path='search' element={<SearchPages/>}/>

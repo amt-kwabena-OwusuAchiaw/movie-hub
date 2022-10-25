@@ -346,7 +346,7 @@ img{
 }
 .checkPrimary{
 
- background-color:blue;
+ background-color:green;
  padding:6px;
  border-radius:50%;
  color:white;

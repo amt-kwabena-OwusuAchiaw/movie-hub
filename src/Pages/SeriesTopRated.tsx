@@ -21,7 +21,7 @@ export const SeriesTopRated = () => {
   
     const createdGenre = useCreated(genresSelected);
   
-    const popular:string = `https://api.themoviedb.org/3/tv/popular?api_key=5eb7eaa6c60e68b38ecb9bcb17fee24f&language=en-US&include_adult=false&include_video=false&page=${page}&with_genres=${createdGenre}` ;
+    const popular:string = `https://api.themoviedb.org/3/tv/top_rated?api_key=5eb7eaa6c60e68b38ecb9bcb17fee24f&language=en-US&include_adult=false&include_video=false&page=${page}&with_genres=${createdGenre}` ;
       interface genre{
             id:number,
             name:string

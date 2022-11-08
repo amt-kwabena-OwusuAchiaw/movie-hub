@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movie-hub/static/css/main.8a42f3fd.css",
-    "main.js": "/movie-hub/static/js/main.5824841e.js",
+    "main.js": "/movie-hub/static/js/main.b0d347f3.js",
     "static/media/6366.jpg": "/movie-hub/static/media/6366.f00593802a7bcc996685.jpg",
     "static/media/4.jpg": "/movie-hub/static/media/4.aa4b4cdc245343892d37.jpg",
     "static/media/5.jpg": "/movie-hub/static/media/5.7290d945b1badf51786a.jpg",
@@ -16,10 +16,10 @@
     "static/media/facebook.svg": "/movie-hub/static/media/facebook.229c75a01827343aef31ae916e2ec18a.svg",
     "static/media/icon-hamburger.svg": "/movie-hub/static/media/icon-hamburger.28bc2caa663abd7fa43a9821b18838b2.svg",
     "main.8a42f3fd.css.map": "/movie-hub/static/css/main.8a42f3fd.css.map",
-    "main.5824841e.js.map": "/movie-hub/static/js/main.5824841e.js.map"
+    "main.b0d347f3.js.map": "/movie-hub/static/js/main.b0d347f3.js.map"
   },
   "entrypoints": [
     "static/css/main.8a42f3fd.css",
-    "static/js/main.5824841e.js"
+    "static/js/main.b0d347f3.js"
   ]
 }

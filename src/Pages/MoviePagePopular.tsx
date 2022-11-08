@@ -16,8 +16,8 @@ export interface genre{
 export const MoviePagePopular = () => {
 
   const [page, setPage] = useState<number>(1);
-  const [genresSelected, setGenresSelected] = useState<any>([]);
-  const [allgenres,setAllGenres] = useState<any>([]);
+  const [genresSelected, setGenresSelected] = useState<string[]>([]);
+  const [allgenres,setAllGenres] = useState<string[]>([]);
 
   const createdGenre = useCreated(genresSelected)
 

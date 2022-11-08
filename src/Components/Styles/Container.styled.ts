@@ -355,7 +355,7 @@ img{
 .checkSec{
 
   background-color:red;
-  padding:3px;
+  padding:6px;
   border-radius:50%;
   color:white;
 

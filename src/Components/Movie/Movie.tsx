@@ -50,7 +50,7 @@ export const Movie = () => {
     fetch(movie).then(res=>res.json()).then(data=>{
       //console.log(data);
        setMovieTen(data.results)
-      // console.log(data.results)
+     //  console.log(data.results)
     })
 
    },[])

@@ -30,7 +30,7 @@ export const MovieSub = ({id,poster,title,date,media_type,vote_average,popularit
         <div className='b'><b > {title}</b></div>
         <br/>
         {vote_average?
-        <div className={vote_average>=7?'vote':'no'}>Ratings: <span className={vote_average>=7?'checkPrimary':'checkSec'}>{vote_average!=0?(vote_average).toFixed(1): 'Not Rated '}</span></div> 
+        <div className={vote_average>=7?'vote':'no'}>Ratings: <span className={vote_average>=7?'checkPrimary':'checkSec'}>{vote_average!=0?(vote_average).toFixed(1): <span style={{backgroundColor:'#141212' , color: 'orange' , padding:'7px' , borderRadius:'50%'}}> Not Rated</span>}</span></div> 
         :<div className='vote'>Poularity:{popularity}</div>
 }
         <div className='b'>{media_type === 'tv' ? "TV Series": "" }</div>

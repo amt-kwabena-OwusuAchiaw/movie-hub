@@ -53,8 +53,7 @@ export const MoviePagePopular = () => {
        vote_count:number,
        title:string,
        release_date: string,
-       
-    
+      
     }
 
 

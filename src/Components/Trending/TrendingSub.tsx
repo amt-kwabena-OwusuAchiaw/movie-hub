@@ -14,7 +14,7 @@ export const TrendingSub = ({id,poster,title,date,media_type,vote_average}: {id:
         <div className='b'><b > {title}</b></div>
         <br/>
 
-        <div className={vote_average>=7?'vote':'no'}>Ratings: <span  className={vote_average>=7?'checkPrimary':'checkSec'} >{vote_average!=0?(vote_average).toFixed(1):<span style={{backgroundColor:'#141212' , color: 'orange' , padding:'7px' , borderRadius:'50%'}}> Not Rated</span> }</span></div> 
+        <div className={vote_average>=7?'vote':'no'}>Ratings: <span  className={vote_average>=7?'checkPrimary':'checkSec'} >{vote_average!=0?(vote_average).toFixed(1):<span id ='scale' > Not Rated</span> }</span></div> 
        <div className='b'>{media_type === 'tv' ? "TV Series": "Movie " }</div>
         <div className='b'>{date}</div>  
        
@@ -23,3 +23,5 @@ export const TrendingSub = ({id,poster,title,date,media_type,vote_average}: {id:
 
   )
 } 
+
+

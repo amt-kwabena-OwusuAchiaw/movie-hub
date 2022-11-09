@@ -392,6 +392,16 @@ img{
 }
 
 
+
+#scale{
+
+
+background-color:#141212 ;
+ color: orange;
+  padding:7px;
+   border-radius:50%;
+}
+
 @media screen and (max-width:780px){
   font-size: 13px;
 
@@ -410,6 +420,19 @@ img{
    img{
 
      height: 150px;
+   }
+
+  
+
+   .checkSec{
+      padding:1.5px;
+
+   }
+   #scale{
+    
+     font-size:7px;
+
+
    }
 
 

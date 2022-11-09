@@ -29,7 +29,6 @@ export const SearchPages = (  ) => {
         const  searchPeople = `https://api.themoviedb.org/3/search/person?api_key=5eb7eaa6c60e68b38ecb9bcb17fee24f&language=en-US&query=${searchText}&page=1&include_adult=false` 
           const all = `https://api.themoviedb.org/3/search/multi?api_key=5eb7eaa6c60e68b38ecb9bcb17fee24f&language=en-US&query=${searchText}&page=1&include_adult=false`
         fetch(searchMovies).then(res=> res.json()).then(data =>{
-          
           setSearchMovie(data.results);       
          })
 

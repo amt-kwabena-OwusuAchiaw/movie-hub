@@ -6,8 +6,8 @@ import { OverviewSub } from './OverviewSub';
 export const Overview = ({children, media_type,id}:{children:any,media_type:string,id:number}) => {
 
 
-  const child = useRef<any>();
-
+  //const child = useRef<any>();
+  //ref={child}
   const [open, setOpen]= useState(false);
   const [over,setOver] = useState<any>();
   const [video, setVideo] = useState<any>()
@@ -42,10 +42,7 @@ export const Overview = ({children, media_type,id}:{children:any,media_type:stri
   
   
  }
-    
-  
-    
-   const wait = () => {
+      const wait = () => {
     
       fetch(`https://api.themoviedb.org/3/${media_type}/${id}/videos?api_key=5eb7eaa6c60e68b38ecb9bcb17fee24f&language=en-US`).then(res=>res.json()).then(data=>{
        //console.log(data)
@@ -71,7 +68,7 @@ export const Overview = ({children, media_type,id}:{children:any,media_type:stri
       </div>
      
 
-<div ref={child}>
+<div  >
     
      { open &&  <Overviewing > 
         <div onClick={handleClose} className='position'>X </div>

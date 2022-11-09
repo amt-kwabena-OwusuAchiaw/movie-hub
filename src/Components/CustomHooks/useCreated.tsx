@@ -7,10 +7,8 @@ export const useCreated =(genresSelected:any)=>{
   name:string
  }
 
-   //console.log(genresSelected)
-
+  
   const Gen = genresSelected.map((g:c)=> g.id);
- // console.log(Gen)
     
   return Gen.reduce((acc:number,curr:number) => acc + ',' + curr)
 }

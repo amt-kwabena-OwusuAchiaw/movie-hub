@@ -58,7 +58,7 @@ export const PhoneMenu = ({onHandleClick,isOpen}:{onHandleClick:any,isOpen:any})
 
   return (
     <Containergrid>
-          <li><a href='#'>Movies <i className="fas fa-caret-down" />  </a>
+          <li><a href='#'>Movies <i className="fas fa-caret-right" />  </a>
              <ul>
                 <li onClick={handleMoviePopular}>Popular</li>
                 <li onClick={handleMovieNowPlaying}>Now Playing</li>
@@ -66,7 +66,7 @@ export const PhoneMenu = ({onHandleClick,isOpen}:{onHandleClick:any,isOpen:any})
                 <li onClick={handleMovieUpComing}> Up Coming</li>
             </ul>
         </li>
-        <li><a href='#'>TV shows <i className="fas fa-caret-down" /> </a>
+        <li><a href='#'>TV shows <i className="fas fa-caret-right" /> </a>
             <ul>
                 <li onClick={handleSeriesPopular}>Popular</li>
                 <li onClick={handleSeriesAiringToday}>Airing Today</li>
@@ -74,7 +74,7 @@ export const PhoneMenu = ({onHandleClick,isOpen}:{onHandleClick:any,isOpen:any})
                 <li onClick={handleSeriesTopRated}> Top Rated</li>
             </ul>
         </li>
-        <li><a href='#'>People  <i className="fas fa-caret-down" /> </a>
+        <li><a href='#'>People  <i className="fas fa-caret-right" /> </a>
             <ul>
                 <li onClick={handlePeople}>Popular People </li>        
             </ul>

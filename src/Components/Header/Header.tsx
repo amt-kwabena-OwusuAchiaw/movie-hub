@@ -91,7 +91,7 @@ export const Header = () => {
     </ContainerFlex>
     <h2 onClick={handleSearch} id='phone' className='h2'>Click to Search</h2>
     <div className='ham'>
-            <button onClick={()=>setIsOpen(!isOpen)}>{ isOpen===false?<img src={ham}/>:<div style={{color:'orange'}}>X</div>}</button>
+            <button onClick={()=>setIsOpen(!isOpen)}>{ isOpen===false?<img src={ham}/>:<div style={{color:'orange'}}>&times;</div>}</button>
     </div>
     </Container>
     {isOpen && <PhoneMenu onHandleClick={setIsOpen} isOpen={isOpen} />}

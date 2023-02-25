@@ -241,24 +241,33 @@ justify-content: space-evenly;
     text-decoration: none;
     color:orange;
  }
-    li ul{
+    li> ul{
         display: none;
+        //padding-top:10px;
     }  
+    li> ul> li{
+      
+      padding-top:15px;
+  }  
 
     li:hover > ul{
     display: block;
+    position:absolute;
     list-style-type:none;
         //margin-left: -45px;
         color:orange;
-        padding-top:2px;
-        
+        //padding-top:2px;
+        background-color:rgba(0,0,0,0.6);
+       width: 150px; 
 }
 
     li> ul >li: hover{
-        padding-top: 10px;
+        //padding-top: 10px;
         cursor: pointer;
         color:white;
-    }
+        background-color:grey;
+        
+    } 
 
 
     @media screen and (max-width:980px){
@@ -286,15 +295,20 @@ export const Containergrid = styled.ul`
 display:grid;
 grid-template-columns: 1fr;
 //width: 30vw;
-text-align:center;
+text-align:left;
  list-style-type: none;
 
 justify-content: space-evenly;  
-  li a{
+li{
+   
+  padding-bottom:20px;
+}
+li> a{
     font-size: 15px;
 
     text-decoration: none;
     color:orange;
+    
  }
     li ul{
         display: none;
@@ -437,10 +451,6 @@ background-color:#141212 ;
 
 
 }
-
-
-
-
 
 `
 
